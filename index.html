@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google font-->
+    <!-- Questrial Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Questrial&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="admin-menu">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" class="img-fluid" alt="">
+            </a>
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+               
+                <button class="nav-link admin-menu-item active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                    <i class="fas fa-home"></i>
+                    <span> Home</span>
+                   
+
+                </button>
+                <button class="nav-link admin-menu-item " id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-menu" type="button" role="tab" aria-controls="v-pills-menu" aria-selected="false">
+                    <i class="fas fa-home"></i>
+                    <span> Menu</span>
+                </button>
+                <button class="nav-link admin-menu-item " id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    <i class="fas fa-history"></i>
+                    <span>History</span>
+                </button>
+                <button class="nav-link admin-menu-item " id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fas fa-wallet"></i>
+                    Wallet
+                </button>
+                <button class="nav-link admin-menu-item " id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fas fa-atom"></i>
+                    Wallet
+                </button>
+                <button class="nav-link admin-menu-item " id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fas fa-cog"></i>
+                    Wallet
+                </button>
+              </div>
+        </div>
+        <div class="inner-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- admin-menu content -->
+                    <div class="col-md-9 col-sm-12 bg-cream">
+                        <div class="search-area">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3>Choose Categary</h3>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="search-box mb-3">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInpu
+                                            " placeholder="name@example.com">
+                                            <label for="floatingInput">Search catagories or menu</label>
+                                            <i class="fas fa-search"></i>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <img src="imgs/download.jpg"  class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="imgs/images 2.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-menu" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <div class="menu-cata">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+                                                <h5>All</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+                                                <h5>Coffee</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+                                                <h5>Juice</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+                                                <h5>Milk Board</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+                                                <h5>Snack</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+    
+                                                <h5>Rice</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cata-box">
+                                                <img src="imgs/cata/pizza.png" class="img-fluid" alt="">
+    
+                                                <h5>Desert</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-details">
+                                    <div class="menu-title d-flex justify-content-between">
+                                        <h4>Coffee Menu</h4>
+                                        <p>12 Coffee</p>
+                                    </div>
+                                    <div class="menu-box">
+                                        <div class="container">
+                                            <div class="row">
+                                                <!-- single-box start-->
+                                                <div class="col-md-6 col-sm-12">
+                                                    <div class="single-box">
+                                                        <div class="box-top d-flex justify-content-center">
+                                                            <div class="box-img">
+                                                                <img src="imgs/product/p-1.png"  class="img-fluid" alt="">
+                                                            </div>
+                                                            <div class="box-title">
+                                                                <h2>Caramel Frappuccino</h2>
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda impedit quasi, molestias expedita possimus consectetur</p>
+                                                               <span class="price"> $400</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box-info d-flex justify-content-between">
+                                                            <div class="model">
+                                                                <h5>Mood</h5>
+                                                                <ul>
+                                                                    <li><i class="fas fa-fire"></i></li>
+                                                                    <li><i class="fas fa-cog"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="model">
+                                                                <h5>Size</h5>
+                                                                <ul>
+                                                                    <li>s</li>
+                                                                    <li>M</li>
+                                                                    <li>L</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box-info d-flex justify-content-between">
+                                                            <div class="model">
+                                                                <h5>Sugar</h5>
+                                                                <ul>
+                                                                    <li>30%</li>
+                                                                    <li>50%</li>
+                                                                    <li>70%</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="size">
+                                                                <h5>Ice</h5>
+                                                                <ul>
+                                                                    <li>30%</li>
+                                                                    <li>50%</li>
+                                                                    <li>70%</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box-btn">
+                                                            <button type="btn">Add to Billing</button>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                                <!-- single-box end -->
+                                                <!-- single-box start-->
+                                                <div class="col-md-6 col-sm-12">
+                                                    <div class="single-box">
+                                                        <div class="box-top d-flex justify-content-center">
+                                                            <div class="box-img">
+                                                                <img src="imgs/product/p-1.png"  class="img-fluid" alt="">
+                                                            </div>
+                                                            <div class="box-title">
+                                                                <h2>Caramel Frappuccino</h2>
+                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda impedit quasi, molestias expedita possimus consectetur</p>
+                                                               <span class="price"> $400</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box-info d-flex justify-content-between">
+                                                            <div class="model">
+                                                                <h5>Mood</h5>
+                                                                <ul>
+                                                                    <li><i class="fas fa-fire"></i></li>
+                                                                    <li><i class="fas fa-cog"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="model">
+                                                                <h5>Size</h5>
+                                                                <ul>
+                                                                    <li>s</li>
+                                                                    <li>M</li>
+                                                                    <li>L</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box-info d-flex justify-content-between">
+                                                            <div class="model">
+                                                                <h5>Sugar</h5>
+                                                                <ul>
+                                                                    <li>30%</li>
+                                                                    <li>50%</li>
+                                                                    <li>70%</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="size">
+                                                                <h5>Ice</h5>
+                                                                <ul>
+                                                                    <li>30%</li>
+                                                                    <li>50%</li>
+                                                                    <li>70%</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box-btn">
+                                                            <button type="btn">Add to Billing</button>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                                <!-- single-box end -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- menu box end-->
+                                    <!-- product box start -->
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-12">
+                                                <div class="single-product-box">
+                                                    <div class="product-box-inner d-flex justify-content-between">
+                                                        <div class="product-img">
+                                                            <img src="imgs/product/p-1.png"  class="img-fluid" alt="">
+                                                            <h3>Mood</h3>
+                                                        </div>
+                                                        <div class="product-details">
+                                                            <h3>Coffe Lato Frappucino</h3>
+                                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                                            <span class="price">$40</span>
+                                                           <h4 class="">size</h4>
+    
+                                                        </div>
+                                                    </div>
+                                                    <!-- product-inner end -->
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12">
+                                                <div class="single-product-box">
+                                                    <div class="product-box-inner d-flex justify-content-between">
+                                                        <div class="product-img">
+                                                            <img src="imgs/product/p-1.png"  class="img-fluid" alt="">
+                                                            <h3>Mood</h3>
+                                                        </div>
+                                                        <div class="product-details">
+                                                            <h3>Coffe Lato Frappucino</h3>
+                                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                                            <span class="price">$40</span>
+                                                           <h4 class="">size</h4>
+    
+                                                        </div>
+                                                    </div>
+                                                    <!-- product-inner end -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- product box end -->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+    
+                                
+                            </div>
+                          </div>
+                    </div>
+                    <!-- admion menu end -->
+                    <div class="col-md-3 col-sm-12 bg-white">
+                        <div class="right-sidebar t">
+                            <div class="role-name">
+                                <div class="user-meta">
+                                    <img src="imgs/user.jpg" alt="">
+                                    <i class="fas fa-bell"></i>
+                                    <h3>I am a Cashie</h3>
+                                    <h2>Jelly Grande</h2>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="sidebar-content">
+                            <div class="content-inner ">
+                                <div class="bills-section">
+                                    <h4>Bills</h4>
+                                    <div class="bills-details ">
+                                        <div class="product-img">
+                                            <img src="imgs/bills/bills-2.png" class="img-fluid"  alt="">
+                                        </div>
+                                        <div class="product-details ">
+                                            <h4 class="product-title">Caramel Frappuccino</h4>
+                                            <div class="details-inner d-flex justify-content-between">
+                                                <ul>
+                                                    <li>x1</li>
+                                                    <li class="note">Note <i class="fas fa-pen"></i></li>
+                                                </ul>
+                                                <div class="product-price">
+                                                    <span>$3,396</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bills-details ">
+                                        <div class="product-img">
+                                            <img src="imgs/bills/bills-2.png" class="img-fluid"  alt="">
+                                        </div>
+                                        <div class="product-details ">
+                                            <h4 class="product-title">Caramel Frappuccino</h4>
+                                            <div class="details-inner d-flex justify-content-between">
+                                                <ul>
+                                                    <li>x1</li>
+                                                    <li class="note">Note <i class="fas fa-pen"></i></li>
+                                                </ul>
+                                                <div class="product-price">
+                                                    <span>$3,396</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bills-details ">
+                                        <div class="product-img">
+                                            <img src="imgs/bills/bills-2.png" class="img-fluid"  alt="">
+                                        </div>
+                                        <div class="product-details ">
+                                            <h4 class="product-title">Caramel Frappuccino</h4>
+                                            <div class="details-inner d-flex justify-content-between">
+                                                <ul>
+                                                    <li>x1</li>
+                                                    <li class="note">Note <i class="fas fa-pen"></i></li>
+                                                </ul>
+                                                <div class="product-price">
+                                                    <span>$3,396</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="subtotal-section d-flex justify-content-between">
+                                    <div class="subtotal-title">
+                                        <h5>Subtotal</h5>
+                                        <p>Tax(10%)</p>
+                                    </div>
+                                    <div class="subtotal-amount">
+                                        <p>$18,99</p>
+                                        <p>$1,899</p>
+                                    </div>
+                                </div>
+                                <div class="grand-total d-flex justify-content-between">
+                                    <div class="grand-title">
+                                        <h4>Total</h4>
+                                    </div>
+                                    <div class="grand-amount">
+                                        $20141
+                                    </div>
+                                </div>
+
+                                <div class="payment-method">
+                                    <h3>Payment Method</h3>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="payment-box">
+                                                <i class="fas fa-money-bill"></i>
+                                                Cash
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="payment-box">
+                                                <i class="fas fa-credit-card"></i>
+                                                Cash
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="payment-box">
+                                                <i class="fas fa-money-bill"></i>
+                                                Cash
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-btn">
+                                    <button type="btn">Add to Billing</button>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- inner-content end -->
+        
+    </div>
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ============Js Links ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+   
+</html>
